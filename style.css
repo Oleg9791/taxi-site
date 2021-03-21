@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&display=swap');
+body.registration {
+    background-image: url("img/tax.png");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+.col-sm {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+}
+
+input[type="password"] {
+    margin-bottom: 15px;
+
+}
+
+#button {
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 45px;
+}
+
+#main {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+body.reg {
+    background-image: url("img/tax1.png");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: 60px;
+}
+
+body.login {
+    background-image: url("img/tax2.png");
+    /*background-size: 1400px;*/
+    background-repeat: no-repeat;
+    background-position: 35% 220px;
+
+}
+
+div#q1, #q2, #q3, #q4, #q5 {
+    text-align: left;
+    margin-left: 35%;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#middle {
+    display: block;
+    margin-left: -1200px;
+    margin-top: 180px;
+
+}
+
+#opros {
+    margin-top: 100px;
+}
+
+#thanks {
+    background-image: url("img/tax2.png");
+    /*background-size: 1400px;*/
+    background-repeat: no-repeat;
+    background-position: 15% 350px;
+
+}
+
+#than {
+    margin-bottom: 90px;
+}
+
+body#fon {
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+    background-image: url("img/fon.png");
+    background-size: 1900px;
+    background-repeat: no-repeat;
+}
+span#q_1,#q_2,#q_3,#q_4,#q_5{
+    font-weight: bold;
+
+}
+b{
+    font-size: 17px;
+    color: #111010;
+    font-family: 'Permanent Marker', cursive;
+}
+#subtest{
+    margin-left: 450px;
+}
