@@ -1,0 +1,230 @@
+/*===Desktop First===*/
+
+@media (max-width: 1200px) {
+    header .logo {
+        max-width: 300px;
+    }
+    .reg,
+    .link {
+        margin: 0px 0px 0px 150px;
+        font-size: 36px;
+    }
+    header .mnu__top {
+        font-size: 14px;
+    }
+
+    #main .inner > .description {
+        max-width: 80%;
+    }
+    #content .inner__content h2 {
+        font-size: 22px;
+    }
+    #content .inner__content form {
+        margin: 30px 0px 0px 280px;
+    }
+    .opros {
+        font-size: 46px;
+        margin-left: 320px;
+    }
+}
+
+@media (max-width: 992px) {
+    header .logo {
+        max-width: 250px;
+    }
+    .reg,
+    .link {
+        margin: 0px 0px 0px 100px;
+        font-size: 26px;
+    }
+
+    header {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    }
+    header .mnu__top {
+        font-size: 16px;
+        column-count: 2;
+    }
+
+    #main .inner > h1 {
+        font-size: 50px;
+    }
+    #content .inner__content h2 {
+        font-size: 16px;
+        text-shadow: 1px 1px 2px grey;
+    }
+
+    #content .inner__content form {
+        margin: 30px 0px 0px 150px;
+    }
+    #content .inner__content .sign__in {
+        margin: 0px 0px 0px 280px;
+        font-size: 40px;
+    }
+    .opros {
+        font-size: 36px;
+        margin: 0px 5px 0px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    header .logo {
+        max-width: 200px;
+    }
+    header {
+        padding: 0 15px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+    }
+    header .mnu__top {
+        font-size: 12px;
+        column-count: 1;
+    }
+    header .mnu__top li {
+        padding: 0 10px;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    .reg,
+    .link {
+        margin: 0px 0px 0px 50px;
+        font-size: 20px;
+    }
+    #main {
+        padding: 50px 0;
+    }
+    #main .inner > h1 {
+        font-size: 36px;
+    }
+    #main .inner > .description {
+        max-width: 100%;
+    }
+    #content,
+    footer {
+        padding: 30px 0;
+    }
+    #content .inner__content h2 {
+        font-size: 10px;
+        text-shadow: 1px 1px 1px grey;
+    }
+    #content .inner__content form {
+        margin: 30px 0px 0px 60px;
+    }
+    input[type="text"] {
+        width: 300px;
+        height: 25px;
+        font-size: 12px;
+    }
+    input[type="password"] {
+        width: 300px;
+        height: 25px;
+        font-size: 12px;
+    }
+    #content .inner__content .sign__in {
+        margin: 0px 0px 0px 150px;
+        font-size: 35px;
+    }
+    .form-button {
+        margin-left: 70px;
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+    }
+    span {
+        font-size: 10px;
+    }
+    .footer__text {
+        font-size: 12px;
+    }
+    footer ul a {
+        font-size: 10px;
+    }
+    .opros {
+        font-size: 22px;
+        margin: 0px 5px 0px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16);
+    }
+    header .logo {
+        max-width: 150px;
+    }
+
+    header .mnu__top {
+        font-size: 16px;
+    }
+    #main .inner > h1 {
+        font-size: 30px;
+    }
+    #main .inner > .description {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    #content .inner__content h2 {
+        font-size: 12px;
+    }
+    #content .inner__content form {
+        margin: 30px 0px 0px 50px;
+    }
+    #content .inner__content .sign__in {
+        margin: 0px 0px 0px 90px;
+        font-size: 30px;
+    }
+    .reg,
+    .link {
+        font-size: 14px;
+    }
+    input[type="text"] {
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+    }
+    input[type="password"] {
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .form-button {
+        margin-left: 50px;
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+    span {
+        font-size: 7px;
+        margin-top: 7px;
+    }
+    footer ul {
+        column-count: 2;
+    }
+    .footer__text {
+        font-size: 8px;
+    }
+    footer ul a {
+        font-size: 10px;
+    }
+    .opros {
+        font-size: 22px;
+    }
+}
+@media (max-width: 360px) {
+    header .mnu__top li {
+        font-size: 12px;
+    }
+}
+@media (max-width: 320px) {
+    header .mnu__top li {
+        font-size: 10px;
+    }
+    .reg,
+    .link {
+        font-size: 16px;
+    }
+}
