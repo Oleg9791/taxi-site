@@ -22,10 +22,13 @@ $recording = json_decode(file_get_contents("registorData.json"), true);
 
 foreach ($recording as $row) {
 
-        if ($row['login'] == $_POST["login"] and $row['password'] == $_POST["password"]) {
-            header("Location: correct.php");
+    if ($row['login'] == $_POST["login"] and $row['password'] == $_POST["password"]) {
+        header("Location: correct.php");
 
-        }
+    }
+    if ($row['login'] == "Admin" and $row['password'] == "admin") {
+        header("Location: testresult.php");
+    }
 //    }
 }
 echo "<h1 style='font-size: 220%; text-align: center; margin-top: 100px; font-family: monospace; color: #ff0000'>Такой пользователь не существует !!!</h1> <br><br><br>";

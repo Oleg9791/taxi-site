@@ -37,7 +37,7 @@ foreach ($data as $row) {
 //echo ($data[0]);
 echo "</table>";
 ?>
-<a class="btn btn-warning" href="index.html">Вернуться на главную страницу</a>
+<a class="btn btn-warning" href="index.php">Вернуться на главную страницу</a>
 </body>
 </html>
 
