@@ -9,11 +9,11 @@
     <!-- Подключение css Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Подключение обнуляющего css -->
-    <link rel="stylesheet" href="css/zeroing.css">
+    <link rel="stylesheet" href="css_1/zeroing.css">
     <!-- Подключение css со своими стилями -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css_1/style.css">
     <!-- Подключение адаптивного css -->
-    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css_1/adaptive.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <!-- Подключение container Bootstrap -->
         <div class="container">
             <a href="#" class="logo">
-                <img src="css/img/logo2.png" alt="Логотип">
+                <img src="css_1/img/logo2.png" alt="Логотип">
             </a>
             <ul class="mnu__top">
                 <li class="mnu__top-link"><a href="#">Главная</a></li>
@@ -68,16 +68,16 @@
                 <ul>
                     <li><a href="#">Пункт меню</a></li>
                     <li><a href="#">Пункт меню</a></li>
-                    <li><a href="#"><img src="css/img/fb.png"></a></li>
+                    <li><a href="#"><img src="css_1/img/fb.png"></a></li>
                     <li><a href="#">Пункт меню</a></li>
                     <li><a href="#">Пункт меню</a></li>
-                    <li><a href="#"><img src="css/img/instagram.png"></a></li>
+                    <li><a href="#"><img src="css_1/img/instagram.png"></a></li>
                     <li><a href="#">Пункт меню</a></li>
                     <li><a href="#">Пункт меню</a></li>
-                    <li><a href="#"><img src="css/img/email.png"></a></li>
+                    <li><a href="#"><img src="css_1/img/email.png"></a></li>
                     <li><a href="#">Пункт меню</a></li>
                     <li><a href="#">Пункт меню</a></li>
-                    <li><a href="#"><img src="css/img/Twitter.png"></a></li>
+                    <li><a href="#"><img src="css_1/img/Twitter.png"></a></li>
                 </ul>
                 <div class="footer__text">
                     Онлайн-опрос © 2021 ZaicevOleg Все права защищены
