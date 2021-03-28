@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +19,9 @@
 
         </div>
         <div class="col-sm">
-            <h1 id="than">Благодарим Вас за участие в опросе !!!</h1>
+            <h1 id="than"> <?= $_SESSION['username']." Благодарим Вас за участие в опросе!!!" ?> </h1>
             <a class="btn btn-warning" href="index.php">Вернуться на главную страницу</a> <br><br>
-<!--            <a class="btn btn-warning" href="testresult.php">Посмотреть результат опроса</a>-->
+            <!--            <a class="btn btn-warning" href="testresult.php">Посмотреть результат опроса</a>-->
 
         </div>
         <div class="col-sm">

@@ -22,6 +22,7 @@
         </div>
         <div class="col-10">
             <form action="checkopros.php" method="post">
+
                 <div id="q1"><span><b>1. Как часто Вы пользуетесь услугами такси?</b></span><br>
                     <input type="radio" class="form-check-input mt-0" aria-label="Radio button for following text input"
                            name="q1" value="Несколько раз в месяц"><span id="q_1">Несколько раз в месяц</span><br>
@@ -79,7 +80,6 @@
                             id="q_5">Я ищу стоянку такси</span>
                 </div>
                 <br>
-
                 <input type="submit" class="btn btn-info" id="subtest" value="Отправить">
             </form>
 

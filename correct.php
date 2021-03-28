@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +19,7 @@
 
         </div>
         <div class="col-sm">
-            <h1>Вы успешно вошли !!!</h1>
+            <h1><?= $_SESSION['username']?> Вы успешно вошли !!!</h1>
             <a id="opros" href="opros.php" class="btn btn-warning">Пройти опрос</a>
 
         </div>

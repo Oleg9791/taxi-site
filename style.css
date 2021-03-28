@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&display=swap');
+
 body.registration {
     background-image: url("img/tax.png");
     background-size: 1400px;
@@ -52,7 +53,7 @@ body.login {
 
 }
 
-div#q1, #q2, #q3, #q4, #q5 {
+div#q1, #q2, #q3, #q4, #q5 ,#q6{
     text-align: left;
     margin-left: 35%;
 }
@@ -91,15 +92,28 @@ body#fon {
     background-size: 1900px;
     background-repeat: no-repeat;
 }
-span#q_1,#q_2,#q_3,#q_4,#q_5{
+
+span#q_1, #q_2, #q_3, #q_4, #q_5 {
     font-weight: bold;
 
 }
-b{
+
+b {
     font-size: 17px;
     color: #111010;
     font-family: 'Permanent Marker', cursive;
 }
-#subtest{
+
+#subtest {
     margin-left: 450px;
 }
+
+#result {
+    text-align: center;
+}
+
+#test {
+    margin-left: 32%;
+    font-family:  cursive;
+}
+
