@@ -8,7 +8,7 @@ if (empty($_POST["login"] or $_POST["login"] = "")
 //    echo "<button style='margin: 100px 0px 0px 680px; height: 40px; background-color: green; text-align: center;' ><a style='text-decoration: none; color: aliceblue'  href='index.php' class='btn btn-success'>Введите верные данные</a></button>";
     header("Location: index.php");
 
-    die();
+//    die();
 }
 
 
@@ -30,19 +30,20 @@ foreach ($recording as $row) {
         header("Location: correct.php");
 
     }
-    if ($_POST['login'] == "Admin" and $_POST['password'] == "admin" and $_POST['name'] == "Admin") {
+    if ($_POST['login'] == "Admin" and $_POST['password'] == "admin") {
 
         header("Location: testresult.php");
     }
+//    if ($row['name'] != $_POST["name"] and $row['login'] != $_POST["login"] and $row['password'] != $_POST["password"]) {
+//        header("Location: index.php");
+//    }
+
 }
 //        echo "<h1 style='font-size: 220%; text-align: center; margin-top: 100px; font-family: monospace; color: #ff0000'>Такой пользователь не существует !!!</h1> <br><br><br>";
 //        echo "<button style='margin: 100px 0px 0px 680px; height: 40px; background-color: green; text-align: center;' ><a style='text-decoration: none; color: aliceblue'  href='login.html' class='btn btn-success'>Вернуться к регистрации</a></button>";
 
-exit();
+//exit();
+//header("Location: index.php");
 
 
-//    }
-
-
-//}
 
