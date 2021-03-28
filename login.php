@@ -30,7 +30,7 @@ foreach ($recording as $row) {
         header("Location: correct.php");
 
     }
-    if ($_POST['login'] == "Admin" and $_POST['password'] == "admin") {
+    if ($_POST['login'] == "Admin" and $_POST['password'] == "admin" and $_POST['name'] == "Admin") {
 
         header("Location: testresult.php");
     }
