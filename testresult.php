@@ -31,14 +31,10 @@ session_start();
             $q44 = "По каким причинам Вы больше не пользуетесь услугами такси?";
             $q55 = "Каким способом Вы чаще всего заказываете такси?";
             $q66 = "Ваше имя?";
-            //            $user = json_decode(file_get_contents("registorData.json"), true);
-            //            print_r($user);
-            //            foreach ($user as $col){
-            //                $name=$col['name'];
-            //            }
-            //            echo "$name";
-            $data = json_decode(file_get_contents("data.json"), true);
-            //            print_r($data);
+            $data = json_decode(file_get_contents("data.json"), true) ;
+
+//         $data1=   'time' => date("d-M-Y (l) H-i-s");
+//            print_r($data);
             echo "<table id='result' class='table table-bordered border-primary'>";
             echo " <th colspan='5' style='border: none; font-family:cursive ; font-size: larger' >Вопросы и ответы </th>";
             foreach ($data as $row) {
