@@ -24,24 +24,23 @@ session_start();
         </div>
         <div class="col-6">
             <?php
+            ini_set('display_errors', 'Off');
 
             $q11 = "Как часто Вы пользуетесь услугами такси?";
             $q22 = "По какой причине Вы чаще всего пользуетесь услугами такси?";
             $q33 = "В какое время дня Вы больше всего пользуетесь услугами такси?";
             $q44 = "По каким причинам Вы больше не пользуетесь услугами такси?";
             $q55 = "Каким способом Вы чаще всего заказываете такси?";
-            $q66 = "Ваше имя?";
-            $data = json_decode(file_get_contents("data.json"), true) ;
+            $data = json_decode(file_get_contents("data.json"), true);
 
-//         $data1=   'time' => date("d-M-Y (l) H-i-s");
-//            print_r($data);
-            echo "<table id='result' class='table table-bordered border-primary'>";
-            echo " <th colspan='5' style='border: none; font-family:cursive ; font-size: larger' >Вопросы и ответы </th>";
+            //            print_r($data);
+            echo "<table id='result' class='table table-bordered border-dark'>";
+            echo "<th colspan='5'>Вопросы и ответы</th><th>Имя</th><th>Дата</th>";
             foreach ($data as $row) {
 
 
-                echo "<tr><td><b>$q11</b><br><i style='color: #ec0542'>$row[q1]</i></td><td><b>$q22</b><br><i style='color: #ec0542'>$row[q2]</i>></td><td><b>$q33</b><br><i style='color: #ec0542'>$row[q3]</i></td>
-<td><b>$q44</b><br><i style='color: #ec0542'>$row[q4]</i>></td><td><b>$q55</b><br><i style='color: #ec0542'>$row[q5]</i></td><td><b>$q66</b><br><i style='color: #064ef5'>$row[username]</i></td></tr>";
+                echo "<tr><td><b>$q11</b><br><i style='color: #ec0542'>$row[q1]</i></td><td><b>$q22</b><br><i style='color: #ec0542'>$row[q2]</i></td><td><b>$q33</b><br><i style='color: #ec0542'>$row[q3]</i></td>
+<td><b>$q44</b><br><i style='color: #ec0542'>$row[q4]</i></td><td><b>$q55</b><br><i style='color: #ec0542'>$row[q5]</i></td><td><b><i style='color: #064ef5'>$row[username]</i></b></td><td><i style='color: #064ef5; font-weight: bold'>$row[time]</i></td></tr>";
 
 
             }

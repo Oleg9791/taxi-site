@@ -7,7 +7,7 @@ if (!empty($_POST["q1"]) and !empty($_POST["q2"]) and !empty($_POST["q3"]) and !
     and !empty($_POST["q5"])) {
     $recording = json_decode(file_get_contents("data.json"), true);
     $recording[] = ['q1' => $_POST["q1"], 'q2' => $_POST["q2"], 'q3' => $_POST["q3"],
-        'q4' => $_POST["q4"], 'q5' => $_POST["q5"], 'username' => $_SESSION["username"]];
+        'q4' => $_POST["q4"], 'q5' => $_POST["q5"], 'username' => $_SESSION["username"],'time' => date("d-M-Y (l) H-i-s")];
     file_put_contents("data.json", json_encode($recording));
 //    print_r($recording);
     // Перенаправление на завершение опроса с благодарностью и перенаправлением на главную страницу

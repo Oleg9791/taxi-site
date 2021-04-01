@@ -8,9 +8,6 @@ if (empty($_POST["name"] or $_POST["name"] = "") or empty($_POST["login"] or $_P
 
     die();
 }
-//$name = $_POST["name"];
-//$login = $_POST["login"];
-//$password = $_POST["password"];
 $recording = json_decode(file_get_contents("registorData.json"));
 $recording[] = ['login' => $_POST["login"], 'password' => $_POST["password"], 'name' => $_POST["name"],'time' => date("d-M-Y (l) H-i-s")];
 file_put_contents("registorData.json", json_encode($recording));
